@@ -1,0 +1,18 @@
+
+body
+{
+font-family: $font-family;
+color: $primary-text-color;
+background-color: $bg-color;
+font-size: 14px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+}
+
+h2 {
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    }

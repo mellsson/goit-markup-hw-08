@@ -1,0 +1,114 @@
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        }
+
+
+.footer-section {
+        background-color: $bg-footer;
+        }
+        
+.footer-social-list {
+                display: flex;
+                
+                }
+                
+                
+.footer-social-list {
+    .items:not(:first-child) {
+        margin-left:10px;  
+    }
+}
+
+.footer-contact-text {
+
+        color:#ffffff;  
+        line-height: 1.17;
+        }
+
+
+.footer-form-action {
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+.footer-form-action {
+
+    & .button:hover,.button:focus {
+        background-color: #188CE8;
+    }
+}
+
+.footer-form-action 
+{
+input {
+min-width: 358px;
+min-height: 50px;
+border: 1px solid rgba(165, 165, 165, 0.3);
+border-radius: 4px;
+background: transparent;
+padding-left: 16px;
+color: $button-color;
+} 
+}
+
+.footer-botton_icon {
+margin-left: 10px;
+fill:#ffffff;
+
+}
+
+.footer-contact-link  {
+    display: inline-flex;
+    align-items: center;
+    color: $primary-text-color;
+    fill:#757575;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+
+    .footer-contact-link {
+        &:hover,&:focus {
+        color: $accent-color;
+        fill:$accent-color;
+        }
+        }
+
+    .footer-social-link {
+            width: 44px;
+            height: 44px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            fill:#ffffff;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+            
+
+        .footer-social-link {
+                &:hover,&:focus {
+                    background-color: #2196F3;
+                    fill:#ffffff;
+                }
+            }
+
+        .footer-list-marg {
+                margin-top: 9px;
+                
+            }
