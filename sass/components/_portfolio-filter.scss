@@ -21,14 +21,47 @@
         
         .portfolio-menu-filter {
             display: flex;
+            @media screen and (min-width:$mobile) {
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                }
+
+                @media screen and (min-width:$tablet) {
+                
+                    justify-content: center;
+                    }
+
+            @media screen and (min-width:$desktop) {
             justify-content: center;
+            }
         }
         
         .portfolio-menu-filter {
             .items {
-            &:not(:first-child) {
-                margin-left:8px;  
+
+            @media screen and (min-width:$mobile){
+                @media screen and (max-width:767px) {
+            &:not(:last-child) {
+                margin-right:8px;  
             }
+        }
+        @media screen and (max-width:767px) {
+        &:nth-last-child(-n+2) {
+        margin-top:15px;
+        }
+    }
+        }
+
+        @media screen and (min-width:$tablet){
+        &:not(:last-child) {
+            margin-right:8px;  
+        }
+
+
+
+    }
+
+
         }
         
         }

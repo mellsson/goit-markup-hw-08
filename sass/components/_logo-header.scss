@@ -2,8 +2,24 @@
     color: $title-text-color; 
     font-family: $font-family-logo;
     font-weight:700;
-    font-size: 26px;
     line-height: 1.19;
+    @media screen and (min-width:$mobile) {
+        font-size: 24px;
+        line-height: 1.17;
+        @media screen and (max-width:767px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+        }
+    }
+
+    @media screen and (min-width:$tablet) { 
+        font-size: 24px;
+        line-height: 1.17;
+    }
+    @media screen and (min-width:$desktop) { 
+        font-size: 26px;
+        line-height: 1.19;
+    }
  }
 
  .logo-color {

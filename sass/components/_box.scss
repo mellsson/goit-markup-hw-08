@@ -2,11 +2,33 @@
     padding-top:94px;
     padding-bottom:94px;
     text-align: center;
+    @media screen and (min-width:$mobile) {
+        @media screen and (max-width:1199px) {
+        display: none;
+        }
+        }
+
+}
+
+.box-list{
+    
+
+    @media screen and (min-width:$mobile) {
+        display: block;
+    }
+    @media screen and (min-width:$tablet) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @media screen and (min-width:$desktop) {
+        display: flex;
+    }
 }
 
 .box-list-items {
     &:not(:first-child) {
-        margin-left:30px;}
+        margin-left:30px;
+    }
 }
 
 .items-box-1 {

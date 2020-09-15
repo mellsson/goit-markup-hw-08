@@ -1,0 +1,51 @@
+.menu-burger {
+
+    @media screen and (max-width:767px){
+        
+    
+    width: 100%;
+    position: absolute;
+    top:100%;
+    left:0;
+    background-color: #ffffff;
+    border-top: 1px solid #ECECEC;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 397px;
+    display: none;
+
+   &.is-open {
+       display: block;
+   }
+
+}
+
+@media screen and (min-width:$tablet) {
+display: flex;
+align-items: center;
+
+}
+}
+.menu-button {
+cursor: pointer;   
+fill:currentColor;
+}
+.menu-button {
+
+    &:hover, &:focus {
+        fill:$accent-color;
+    }
+}
+
+.menu-button {}
+&.is-open {
+    fill:currentColor;
+}
+}
+
+.menu-button {
+&.is-open:hover {
+    fill:$accent-color;
+}
+}

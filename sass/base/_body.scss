@@ -12,7 +12,17 @@ letter-spacing: 0.03em;
 h2 {
     color: $title-text-color;
     font-weight: 700;
-    font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    
+    @media screen and (min-width:$mobile) { 
+        font-size: 28px;
+    }
+    @media screen and (min-width:$tablet) { 
+        font-size: 28px;
+    }
+    @media screen and (min-width:$desktop) { 
+        font-size: 36px;
+    }
+   
     }
