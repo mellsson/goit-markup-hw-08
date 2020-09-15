@@ -21,9 +21,10 @@
         
         .portfolio-menu-filter {
             display: flex;
-            @media screen and (min-width:$mobile) {
+            @media screen and (max-width:767px) {
                 flex-wrap: wrap;
                 justify-content: flex-start;
+                max-width: 362px;
                 }
 
                 @media screen and (min-width:$tablet) {

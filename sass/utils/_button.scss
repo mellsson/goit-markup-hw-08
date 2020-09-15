@@ -24,7 +24,7 @@
 }
 
 .menu-button {
-    @media screen and (min-width:$mobile) {
+    @media screen and (max-width:767px) {
         
     
     width: 40px;

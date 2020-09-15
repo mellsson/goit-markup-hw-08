@@ -9,9 +9,8 @@
 }
 .client-list {
     display: flex;
-    @media screen and (min-width:$mobile) {
      flex-wrap: wrap;
-    }
+   
 
     @media screen and (min-width:$tablet) {
         
@@ -27,7 +26,7 @@
 
 .client-list .items {
 
-    @media screen and (min-width:$mobile) {
+    @media screen and (max-width:767px) {
         width: calc((100% - 30px) / 2);
         
         &:nth-child(2n) {
